@@ -50,7 +50,7 @@ export function Hero() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909" />
                 </svg>
               </span>
-              {"Showroomni ko'rish"}
+              Showroomni ko'rish
             </a>
           </div>
 
