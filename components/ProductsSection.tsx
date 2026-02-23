@@ -12,7 +12,7 @@ const products = [
     discountedPrice: 2000000,
     discount: 20,
     delivery: '10 kun',
-    image: '/images/real/collection-living.jpg',
+    image: 'images/real/collection-living.jpg',
     description: 'Yumshoq va qulay, italiya materialidan tayyorlangan premium divan',
     features: ['120x80, Qora rang', 'Natural yog\'och', '5 yil kafolat']
   },
@@ -24,7 +24,7 @@ const products = [
     discountedPrice: 360000,
     discount: 20,
     delivery: '7 kun',
-    image: '/images/real/collection-dining.jpg',
+    image: 'images/real/collection-dining.jpg',
     description: 'Ergonomik va zamonaviy stul, ovqat uchun ideal',
     features: ['Minimalist dizayn', 'Mato qoplama', 'Chap va o\'ng']
   },
@@ -36,7 +36,7 @@ const products = [
     discountedPrice: 520000,
     discount: 20,
     delivery: '8 kun',
-    image: '/images/real/showroom-main.jpg',
+    image: 'images/real/showroom-main.jpg',
     description: 'Yumshoq yon stolchasi, dam olish uchun qulay',
     features: ['2 dona', 'Kremli rang', 'Pufik o\'z ichiga oladi']
   },
@@ -48,7 +48,7 @@ const products = [
     discountedPrice: 1440000,
     discount: 20,
     delivery: '12 kun',
-    image: '/images/real/showroom-side-1.jpg',
+    image: 'images/real/showroom-side-1.jpg',
     description: 'Yog\'och va shisha, ovqatlanish zonasi uchun',
     features: ['140x70 santimetr', 'Qo\'shiladigan stullar', 'Montaj kiritilgan']
   },
@@ -60,7 +60,7 @@ const products = [
     discountedPrice: 2560000,
     discount: 20,
     delivery: '14 kun',
-    image: '/images/real/collection-bedroom.jpg',
+    image: 'images/real/collection-bedroom.jpg',
     description: 'Skandinaviya stilida, keng va qulay yotoq',
     features: ['King size', 'Qo\'shimcha shkaflar', 'Ortopedik matras']
   },
@@ -72,7 +72,7 @@ const products = [
     discountedPrice: 304000,
     discount: 20,
     delivery: '5 kun',
-    image: '/images/real/showroom-side-2.jpg',
+    image: 'images/real/showroom-side-2.jpg',
     description: 'Zamonaviy dizayn, 3 dona lampa to\'plami',
     features: ['LED texnologiyasi', 'Adjust qilinadigan', 'Energiya tejamkor']
   },
@@ -84,7 +84,7 @@ const products = [
     discountedPrice: 960000,
     discount: 20,
     delivery: '9 kun',
-    image: '/images/real/collection-living.jpg',
+    image: 'images/real/collection-living.jpg',
     description: 'Klassik disayn, gut\'ali dam olish uchun',
     features: ['Qora yag\'och', 'Premium mato', 'Ortopedik dizayn']
   },
@@ -96,7 +96,7 @@ const products = [
     discountedPrice: 464000,
     discount: 20,
     delivery: '8 kun',
-    image: '/images/real/collection-dining.jpg',
+    image: 'images/real/collection-dining.jpg',
     description: 'Chini va yog\'och, yashash xonasi uchun',
     features: ['Marmur stol', 'Tutash shkaf', 'Minimalista']
   },
@@ -108,7 +108,7 @@ const products = [
     discountedPrice: 3600000,
     discount: 20,
     delivery: '15 kun',
-    image: '/images/real/showroom-main.jpg',
+    image: 'images/real/showroom-main.jpg',
     description: 'Burchak divan, katta oilalar uchun',
     features: ['L-shaped', 'Transformable', 'USB-charger built-in']
   },
@@ -120,7 +120,7 @@ const products = [
     discountedPrice: 6240000,
     discount: 20,
     delivery: 'Tekin montaj',
-    image: '/images/real/showroom-side-1.jpg',
+    image: 'images/real/showroom-side-1.jpg',
     description: 'To\'liq yashash xonasi to\'plami - hamma birgalikda',
     features: ['Divan + Stol + 4 Stul', 'Aksessuarlar + namoz', 'Expert konsultatsiya']
   }

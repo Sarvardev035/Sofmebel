@@ -21,7 +21,7 @@ export default function OnlineMagazinePage() {
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-xs uppercase tracking-[0.24em] text-goldAccent">Yana savol bormi?</p>
               <h2 className="mt-3 font-display text-3xl text-greenDeep sm:text-4xl">Bosh sahifaga qaytish</h2>
-              <p className="mt-4 text-base text-greenDeep/80 sm:text-lg">Batafsil ma'lumot uchun bizga murojaat qiling</p>
+              <p className="mt-4 text-base text-greenDeep/80 sm:text-lg">Batafsil ma&apos;lumot uchun bizga murojaat qiling</p>
 
               <div className="mt-8">
                 <Link

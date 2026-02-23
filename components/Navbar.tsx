@@ -23,7 +23,7 @@ export function Navbar() {
     <>
       {/* Announcement bar */}
       <div className="w-full bg-greenDeep py-2 text-center text-xs font-medium tracking-widest text-goldAccent uppercase">
-        Bepul yetkazib berish — 5 000 000 so'm dan oshiq buyurtmalarda
+        Bepul yetkazib berish — 5 000 000 so&apos;m dan oshiq buyurtmalarda
       </div>
 
       {/* Main nav */}

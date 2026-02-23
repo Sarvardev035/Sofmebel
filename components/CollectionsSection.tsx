@@ -4,28 +4,28 @@ const collections = [
   {
     title: 'Yashash xonasi',
     description: 'Keng, qulay va zamonaviy divalar, jurnalni stollar va modulli sistemalar.',
-    image: '/images/real/collection-living.jpg',
+    image: 'images/real/collection-living.jpg',
     tag: 'Eng mashhur',
     count: '120+ mahsulot'
   },
   {
     title: 'Yotoqxona',
     description: 'Minimalist va nafis yotoq-platformalar, shkaflar va yon stolchalar.',
-    image: '/images/real/collection-bedroom.jpg',
+    image: 'images/real/collection-bedroom.jpg',
     tag: 'Yangi',
     count: '85+ mahsulot'
   },
   {
     title: 'Oshxona va ovqatlanish',
     description: "Oilaviy to'planishlar uchun issiq muhit yaratadigan stol-stul garnitürlari.",
-    image: '/images/real/collection-dining.jpg',
+    image: 'images/real/collection-dining.jpg',
     tag: 'Premium',
     count: '60+ mahsulot'
   },
   {
     title: 'Xona bezaklari',
     description: "Uy interyerini to'liq qiladigan aksessuarlar, lampalar va dekor elementlar.",
-    image: '/images/real/showroom-side-2.jpg',
+    image: 'images/real/showroom-side-2.jpg',
     tag: 'Yangi',
     count: '200+ mahsulot'
   }

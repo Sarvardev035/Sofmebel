@@ -4,12 +4,12 @@ import { useState, useRef } from 'react';
 import Image from 'next/image';
 
 const products = [
-  { id: 1, name: 'Qora Divan', image: '/images/real/collection-living.jpg' },
-  { id: 2, name: 'Chef Stuli', image: '/images/real/collection-dining.jpg' },
-  { id: 3, name: 'Skandinaviya Stolchasi', image: '/images/real/showroom-main.jpg' },
-  { id: 4, name: 'Italiya Stol', image: '/images/real/showroom-side-1.jpg' },
-  { id: 5, name: 'Minimalist Yotoq', image: '/images/real/collection-bedroom.jpg' },
-  { id: 6, name: 'Trend Lampa', image: '/images/real/showroom-side-2.jpg' },
+  { id: 1, name: 'Qora Divan', image: 'images/real/collection-living.jpg' },
+  { id: 2, name: 'Chef Stuli', image: 'images/real/collection-dining.jpg' },
+  { id: 3, name: 'Skandinaviya Stolchasi', image: 'images/real/showroom-main.jpg' },
+  { id: 4, name: 'Italiya Stol', image: 'images/real/showroom-side-1.jpg' },
+  { id: 5, name: 'Minimalist Yotoq', image: 'images/real/collection-bedroom.jpg' },
+  { id: 6, name: 'Trend Lampa', image: 'images/real/showroom-side-2.jpg' },
 ];
 
 export function ARVisualizerSection() {
