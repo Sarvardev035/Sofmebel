@@ -31,7 +31,7 @@ export function ARVisualizerSection() {
         videoRef.current.srcObject = stream;
         setIsCameraActive(true);
       }
-    } catch (error) {
+    } catch {
       alert('Kameraga ruxsat berilmadi');
     }
   };
@@ -123,10 +123,10 @@ export function ARVisualizerSection() {
           <p className="section-label mb-3">Augmented Reality</p>
           <h2 className="section-title mb-4">
             Mebel Simulyatori<br />
-            <span className="italic">Uyingizda qanday ko'rinishini ko'rish</span>
+            <span className="italic">Uyingizda qanday ko&apos;rinishini ko&apos;rish</span>
           </h2>
           <p className="mx-auto max-w-2xl text-greenDeep/70">
-            📷 Uyingiz rasmi oling, mahsulotni tanlang va viryual qilib mebelni ko'ring. 
+            📷 Uyingiz rasmi oling, mahsulotni tanlang va viryual qilib mebelni ko&apos;ring. 
             Buyurtma berishdan oldin haqiqiy natijani bilib oling!
           </p>
         </div>
@@ -235,7 +235,7 @@ export function ARVisualizerSection() {
                         onClick={drawProductPreview}
                         className="flex items-center gap-2 bg-greenDeep hover:bg-greenMid text-white px-6 py-3 rounded-2xl font-semibold transition-all hover:shadow-strong"
                       >
-                        <span>👁 Ko'rish</span>
+                        <span>👁 Ko&apos;rish</span>
                       </button>
                     )}
                     {showPreview && (
@@ -312,8 +312,8 @@ export function ARVisualizerSection() {
                   <ul className="space-y-1">
                     <li>✓ Rasm yoki video kadrni oling</li>
                     <li>✓ Mebelni tanlang</li>
-                    <li>✓ Kattalikni o'zgartiring</li>
-                    <li>✓ Natijani ko'rish va yuklab olish</li>
+                    <li>✓ Kattalikni o&apos;zgartiring</li>
+                    <li>✓ Natijani ko&apos;rish va yuklab olish</li>
                   </ul>
                 </div>
 

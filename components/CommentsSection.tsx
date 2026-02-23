@@ -42,7 +42,7 @@ export function CommentsSection() {
             </h2>
           </div>
           <p className="text-sm text-greenDeep/60 max-w-xs">
-            Ochko'z Sof Mebel mijozlarining sharhlari va baholari
+            Ochko&apos;z Sof Mebel mijozlarining sharhlari va baholari
           </p>
         </div>
 
@@ -94,11 +94,11 @@ export function CommentsSection() {
         </div>
 
         {/* CTA */}
-        <div className="mt-12 flex flex-col items-center gap-4 text-center\">
-          <p className="text-sm text-greenDeep/70\">
-            Siz ham Sof Mebel mijozlari orasiga qo\'shiling
+        <div className="mt-12 flex flex-col items-center gap-4 text-center">
+          <p className="text-sm text-greenDeep/70">
+            Siz ham Sof Mebel mijozlari orasiga qo&apos;shiling
           </p>
-          <a href="#cta\" className="btn-primary\">
+          <a href="#cta" className="btn-primary">
             Maslahat sorov qilish
           </a>
         </div>
