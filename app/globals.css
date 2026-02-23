@@ -3,33 +3,85 @@
 @tailwind utilities;
 
 :root {
-  --color-green: #1f3d2b;
-  --color-beige: #f5f2eb;
-  --color-gold: #c6a969;
+  --color-green: #1A3327;
+  --color-beige: #F7F4EE;
+  --color-gold: #C6A253;
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-playfair: 'Playfair Display', Georgia, serif;
 }
 
-body {
-  min-height: 100vh;
-  background: radial-gradient(circle at 18% 10%, #f9f5ef, #f0ece3 35%, #ece8df 100%);
-  color: var(--color-green);
+* {
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+body {
+  min-height: 100vh;
+  background-color: #FAF8F4;
+  color: var(--color-green);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #EDE8DE;
+}
+::-webkit-scrollbar-thumb {
+  background: #C6A253;
+  border-radius: 99px;
+}
+
 ::selection {
-  background: rgba(198, 169, 105, 0.35);
+  background: rgba(198, 162, 83, 0.3);
+  color: #1A3327;
 }
 
 @layer utilities {
   .glass-card {
-    background: rgba(245, 242, 235, 0.16);
-    backdrop-filter: blur(14px);
-    border: 1px solid rgba(245, 242, 235, 0.35);
+    background: rgba(250, 248, 244, 0.18);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(250, 248, 244, 0.30);
+  }
+
+  .glass-dark {
+    background: rgba(26, 51, 39, 0.55);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255,255,255,0.10);
   }
 
   .soft-ring {
-    box-shadow: 0 8px 30px rgba(31, 61, 43, 0.22);
+    box-shadow: 0 8px 32px rgba(26, 51, 39, 0.18);
+  }
+
+  .section-label {
+    @apply text-xs font-semibold uppercase tracking-[0.22em] text-goldAccent;
+  }
+
+  .section-title {
+    @apply font-display text-4xl leading-tight text-greenDeep sm:text-5xl;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-greenDeep px-7 py-3.5 text-sm font-semibold tracking-wide text-beigeLight transition-all duration-300 hover:-translate-y-0.5 hover:bg-greenMid hover:shadow-strong;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center rounded-full border border-greenDeep/30 bg-transparent px-7 py-3.5 text-sm font-semibold tracking-wide text-greenDeep transition-all duration-300 hover:border-greenDeep hover:bg-greenDeep hover:text-beigeLight;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center rounded-full bg-goldAccent px-7 py-3.5 text-sm font-semibold tracking-wide text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-goldLight hover:shadow-gold;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-strong;
   }
 }
