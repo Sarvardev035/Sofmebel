@@ -5,7 +5,7 @@ export function Hero() {
     <section id="bosh-sahifa" className="relative min-h-[92vh] w-full overflow-hidden bg-greenDeep">
       {/* Background image */}
       <Image
-        src="images/real/hero.jpg"
+        src="/images/real/hero.jpg"
         alt="Premium zamonaviy yashash xonasi"
         fill
         priority

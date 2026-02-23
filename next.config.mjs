@@ -1,11 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
-  basePath: '/Sofmebel',
-  assetPrefix: '/Sofmebel',
   images: {
-    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',

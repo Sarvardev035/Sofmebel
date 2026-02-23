@@ -1,11 +1,11 @@
 import Image from 'next/image';
 
 const gallery = [
-  { src: 'images/real/showroom-main.jpg', alt: 'Premium showroom — Luxury Living Line', wide: true },
-  { src: 'images/real/showroom-side-1.jpg', alt: 'Zamonaviy ovqatlanish zonasi', wide: false },
-  { src: 'images/real/showroom-side-2.jpg', alt: 'Minimalist mehmonxona interyeri', wide: false },
-  { src: 'images/real/collection-bedroom.jpg', alt: 'Yotoqxona kolleksiyasi', wide: false },
-  { src: 'images/real/collection-dining.jpg', alt: 'Ovqatlanish stol garnitüri', wide: false }
+  { src: '/images/real/showroom-main.jpg', alt: 'Premium showroom — Luxury Living Line', wide: true },
+  { src: '/images/real/showroom-side-1.jpg', alt: 'Zamonaviy ovqatlanish zonasi', wide: false },
+  { src: '/images/real/showroom-side-2.jpg', alt: 'Minimalist mehmonxona interyeri', wide: false },
+  { src: '/images/real/collection-bedroom.jpg', alt: 'Yotoqxona kolleksiyasi', wide: false },
+  { src: '/images/real/collection-dining.jpg', alt: 'Ovqatlanish stol garnitüri', wide: false }
 ];
 
 const highlights = [
@@ -28,7 +28,7 @@ export function ShowroomSection() {
             </h2>
           </div>
           <div className="flex flex-col gap-1 sm:text-right">
-            <p className="text-sm text-white/50">Mebellarni jonli ko&apos;ring</p>
+            <p className="text-sm text-white/50">Mebellarni jonli ko'ring</p>
             <a href="#cta" className="btn-gold self-start text-xs py-2.5 sm:self-auto">
               Showroomga tashrif
             </a>

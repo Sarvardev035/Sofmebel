@@ -20,7 +20,7 @@ export function AboutSection() {
           <div className="relative grid grid-cols-2 gap-4">
             <div className="relative h-72 col-span-2 overflow-hidden rounded-2xl sm:col-span-1 sm:h-80">
               <Image
-                src="images/real/about.jpg"
+                src="/images/real/about.jpg"
                 alt="Sof Mebel showroom"
                 fill
                 className="object-cover transition-transform duration-700 hover:scale-105"
@@ -28,7 +28,7 @@ export function AboutSection() {
             </div>
             <div className="relative h-48 overflow-hidden rounded-2xl sm:h-80 sm:mt-12">
               <Image
-                src="images/real/showroom-main.jpg"
+                src="/images/real/showroom-main.jpg"
                 alt="Premium kolleksiya"
                 fill
                 className="object-cover transition-transform duration-700 hover:scale-105"
@@ -36,7 +36,7 @@ export function AboutSection() {
             </div>
             <div className="relative h-48 overflow-hidden rounded-2xl">
               <Image
-                src="images/real/showroom-side-1.jpg"
+                src="/images/real/showroom-side-1.jpg"
                 alt="Dizayn detallar"
                 fill
                 className="object-cover transition-transform duration-700 hover:scale-105"
@@ -59,7 +59,7 @@ export function AboutSection() {
               2012-yildan beri Sof Mebel Toshkentdagi eng yaxshi interyer va mebel showroomlaridan biri sifatida mijozlarimizga xizmat qilmoqda. Biz Italiya va Skandinaviya ishlab chiqaruvchilari bilan hamkorlik qilib, faqat premium sifatli mahsulotlarni taqdim etamiz.
             </p>
             <p className="mt-4 text-base leading-relaxed text-greenDeep/70">
-              Har bir buyurtmada mijozning xohish va interyeriga qarab individual yondashuv ta&apos;minlaymiz — dizayn maslahatidan tortib, montaj va keyingi xizmatgacha.
+              Har bir buyurtmada mijozning xohish va interyeriga qarab individual yondashuv ta'minlaymiz — dizayn maslahatidan tortib, montaj va keyingi xizmatgacha.
             </p>
 
             {/* Feature tags */}
