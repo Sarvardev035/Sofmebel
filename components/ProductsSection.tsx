@@ -283,7 +283,7 @@ export function ProductsSection() {
                     <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 11l-4-4m0 0L8 7m4 0v10m0 0h10m-10 0H4" />
                     </svg>
-                    Batafsil ko'rish
+                    Batafsil ko&apos;rish
                   </span>
                 </button>
               </div>
@@ -380,7 +380,7 @@ export function ProductsSection() {
                     onClick={() => setSelectedProduct(null)}
                     className="btn-outline flex-1"
                   >
-                    Boshqasini ko'rish
+                    Boshqasini ko&apos;rish
                   </button>
                 </div>
 
